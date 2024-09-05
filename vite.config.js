@@ -10,4 +10,6 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  base: '/', // Add this line if you are deploying to a subdirectory
+
 });
