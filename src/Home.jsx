@@ -10,10 +10,12 @@ import Pricing from "./Pricing";
 import WhatPeopleAreSaying from "./WhatPeopleAreSaying";
 import Footer from "./Footer";
 import Dashboard from "./Dashboard";
-
+import React from "react";
 function Home() {
+  console.log("hi");
+
   return (
-    <>
+    <div>
       <Header />
       <MainSection />
       <BrandSection />
@@ -25,16 +27,8 @@ function Home() {
       <Pricing />
       <WhatPeopleAreSaying />
       <Footer />
-    </>
+    </div>
   );
 }
 
 export default Home;
-
-/*<thead class="thead-dark"><tr><th scope="col">#</th><th scope="col">Image</th><th scope="col">Product Name</th>
-<th scope="col">Price</th>
-<th scope="col">Original Price</th>
-<th scope="col">Sale</th>
-<th scope="col">Update</th>
-<th scope="col">Delete</th>
-</tr></thead> */
